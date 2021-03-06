@@ -1,47 +1,10 @@
 ## Electron + TypeScript + React
 Boilerplate for a project using Electron, React and Typescript
 
-## Installation
+## 项目模板
+https://github.com/diego3g/electron-typescript-react 感谢
 
-Use a package manager of your choice (npm, yarn, etc.) in order to install all dependencies
-
-```bash
-npm install
-```
-
-```bash
-yarn install
-```
-
-## Usage
-In order to run this project 2 scripts will need to be executed `dev:react` and `dev:electron`, run each one in a different terminal and always run `dev:react` before `dev:electron`, or `dev` to run them in order automatically
-
-```bash
-npm run dev:react
-```
-```bash
-npm run dev:electron
-```
-
-or
-
-```bash
-npm run dev
-```
-
-## Packaging
-To generate a project package run `package`
-
-```bash
-npm run package
-```
-
-
-
-## Contributing
-
-Pull requests are always welcome 😃.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+## 改动
+1. 支持单独 css文件 引入（引入style-loader,css-loader）
+2. 支持单独 less 引入（引入less-loader）
+3. 添加antd（配置 babel-plugin-import ，自动加载css文件）
